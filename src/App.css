@@ -1,0 +1,48 @@
+.MyBg {
+  height: 100vh;
+  background: url("../src/assets/images/background.jpg");
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+  text-shadow: 20px black;
+  letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: url("../src/assets/images/trending/art-marvel-heroes-4k-lr.jpg");
+  background-size: cover;
+}
+.horror {
+  height: auto;
+  background: url("../src/assets/images/trending/The\ Buried\ City\,\ Javier\ Blázquez\ Murillo.jpeg");
+  background-size: cover;
+}
+
+.movieimage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  transition: 3s ease all;
+}
+
+.movieimage :hover {
+  scale: 104%;
+}
+
+.horor {
+  height: 500px;
+  padding: 5px;
+}
